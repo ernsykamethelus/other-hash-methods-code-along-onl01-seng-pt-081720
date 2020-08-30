@@ -13,5 +13,5 @@ groceries = {fruit: "Banana", vegetable: "Broccoli", dessert: "Cookie"}
 groceries.values
 
 def get_the_min(groceries)
-  groceries.keys
+  groceries.values.flatten.min
 end
